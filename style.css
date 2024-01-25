@@ -1,9 +1,11 @@
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
 
 body {
     background: #e3edf7;
@@ -13,11 +15,13 @@ body {
     justify-content: center;
 }
 
+
 .skill {
     width: 160px;
     height: 160px;
     position: relative;
 }
+
 
 .outer {
     height: 160px;
@@ -27,6 +31,7 @@ body {
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
+
 
 .inner {
     height: 120px;
@@ -42,10 +47,12 @@ body {
         0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
 
+
 #number {
     font-weight: 600;
     color: #555;
 }
+
 
 circle {
     fill: none;
@@ -56,12 +63,14 @@ circle {
     animation: anim 2s linear forwards;
 }
 
+
 svg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 @keyframes anim {
     100% {
