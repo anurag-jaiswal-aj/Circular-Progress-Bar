@@ -1,15 +1,13 @@
 
 let number = document.getElementById("number");
 let counter = 0;
+let intervalId;
 
-
-setInterval(() => {
-    
+intervalId = setInterval(() => {
     if (counter == 65) {
-        clearInterval();
-    }else{
+        clearInterval(intervalId);
+    } else {
         counter += 1;
         number.innerHTML = counter + "%";
     }
-    
-},30);
+}, 30);
